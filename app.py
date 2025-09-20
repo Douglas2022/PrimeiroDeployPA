@@ -1,5 +1,5 @@
 from flask import Flask,render_template,request,redirect,url_for
-import mysql.connector as my
+#import mysql.connector as my
 
 app = Flask(__name__)
 
@@ -18,3 +18,4 @@ def pagina2():
 
 app.run(debug = True)
     
+git 
